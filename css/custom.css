@@ -1,0 +1,269 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+
+/* Header */
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+   padding: 40px;
+}
+
+.row {
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+.nav {
+   float: right;
+   width: 450px;
+  }
+
+.nav-pills li a {
+   color: #d8192f;
+   border: 1px solid #d8192f;
+   margin-left: 10px;
+   text-align: center;
+   width: 100px;
+    
+}
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color:rgba(216,25,47,1);
+  box-shadow:0 2px 4px rgba(0,0,0,.5); 
+  color:#fff;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: rgba(216,25,47,1);
+}
+
+/* Jumbotron */
+.jumbotron {
+  height: 500px;
+}
+
+.jumbotron {
+   background: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg) no-repeat center center;
+   background-size: cover;
+   height: 500px;
+   padding-top: 25px;
+   margin-bottom: 0;
+}
+
+.col-md-4 {
+  width: 33.33333333%;
+  float:	left;
+}
+
+.jumbotron h2:first-child {
+    margin: 120px 0 0;
+}
+.jumbotron h2 {
+   color: #fff;
+   font-size: 60px;
+   text-align: right;
+   margin: 0;
+   width: 100%;
+}
+
+
+.main .btn {
+    color: #d8192f;
+    border: 1px solid #d8192f;
+    margin-left: 10px;
+    text-align: center;
+    width: 100px;
+    padding:  10px 15px;
+}
+
+a:link {
+    color: #333;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #333;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Banner */
+.banner, .supporting {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.section {
+   text-align: center;
+   padding-top: 40px;
+}
+
+.section h3 {
+  font-size:	30px;
+}
+
+.banner {
+  background-color:#36343f;
+  height:180px; 
+  color: #fff;
+}
+
+.banner h3 {
+   margin: 0;
+   padding: 0;
+   color: #fff;
+}
+
+.section .btn {
+   background-color: rgba(216,25,47,.5);
+   border: 0px;
+   margin-top: 10px;
+   color: #fff;
+}
+
+
+.btn-lg, .btn-group-lg>.btn {
+   padding: 10px 16px;
+   font-size: 18px;
+   line-height: 1.33;
+   border-radius: 6px;
+}
+
+
+/* Supporting */
+
+.col-md-4 {
+  width: 33.33333333%;
+  float:	left;
+}
+
+.section ul {
+   list-style-type: none;
+   margin-top: 10px;
+   margin-bottom:	10px;
+   padding: 0;
+}
+
+.section h3 {
+   margin: 0;
+   padding: 0 0 20px;
+   font-size: 30px;
+}
+
+.section h4 {
+   color: #d8192f;
+   margin: 30px 0 20px;
+   padding: 0;
+   font-size: 20px;
+}
+
+ul, menu, dir {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+/*Footer */
+.footer {
+   height: 100px;
+   padding: 40px 0px 100px;
+   margin-top: 80px;
+   background-color: #eeeeee;
+   font-size: 14px;
+}
+
+
+p {
+    margin: 0 0 10px;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+  
+.footer a {
+   color: #d8192f;
+}
+
+.footer p {
+    float: left;
+    width: 33%;
+  	padding-left: inherit;
+}
+
+.a-right {
+    text-align: right;
+}
+
+.a-center {
+    text-align: center;
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+
+  .nav-pills li:first-child a  {
+    margin-left: 0;
+  }
+}
